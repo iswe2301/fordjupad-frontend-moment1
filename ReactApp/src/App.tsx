@@ -1,8 +1,15 @@
+import Header from "./components/Header"; // Importera header-komponenten
+import Footer from "./components/Footer"; // Importera footer-komponenten
 
 function App() {
   return (
     <>
-    <h1>Test</h1>
+    {/* Använd header och footer, sätt titel som prop */}
+      <Header title="Mina resor"/>
+      <main style={{ padding: "20px" }}>
+        <p>Lite text här...</p>
+      </main>
+      <Footer />
     </>
   )
 }
