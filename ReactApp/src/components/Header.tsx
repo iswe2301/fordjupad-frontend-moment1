@@ -10,7 +10,7 @@ function Header({ title }: HeaderProps) {
     return (
         <header>
             {/* Banner med titel, jsx-inline styling */}
-            <div style={{ backgroundColor: "#222021", padding: "1rem", textAlign: "center" }}>
+            <div style={{ backgroundColor: "#222021", padding: "1.5rem", textAlign: "center" }}>
                 <h1 style={{color: "#ffffff", margin: "0"}}>{title}</h1>
             </div>
 
