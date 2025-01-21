@@ -1,50 +1,29 @@
-# React + TypeScript + Vite
+# DT210G Fördjupad frontend-utveckling - Moment 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Projektbeskrivning - Mina resor
+"Mina resor" är en React-applikation byggd med TypeScript för att visa en lista över resmål jag har besökt eller vill besöka. Projektet har skapats som en del av kursen DT210G Fördjupad frontend-utveckling.
 
-Currently, two official plugins are available:
+## Funktionalitet
+- Dynamiskt genererade resemål med information om:
+  - Land
+  - Plats
+  - Om platsen har besökts eller inte (Ja/Nej)
+  - År för besöket, annars visas "Inte besökt"
+  - Betyg (1–5) om platsen har besökts, annars visas "Inte betygsatt"
+- Responsiv design som fungerar på både desktop och mobila enheter.
+- Komponentspecifik CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tekniker
+- **React**
+- **TypeScript**
+- **JSX**
+- **CSS**
+- **Vite**
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Om
+* **Av:** Isa Westling
+* **Kurs:** DT210G Fördjupad frontend-utveckling
+* **Program:** Webbutvecklingsprogrammet
+* **År:** 2025
+* **Termin:** 4 (VT)
+* **Skola:** Mittuniversitetet
